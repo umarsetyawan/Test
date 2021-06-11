@@ -40,36 +40,43 @@ public class MainActivity extends AppCompatActivity {
         m.setNama("Budi");
         m.setAlamat("Jl.Semarang");
         m.setNoHp("0877");
+        models.add(m);
 
         m = new Model();
         m.setNama("Ahmad");
         m.setAlamat("Jl.Jepara");
         m.setNoHp("0877");
+        models.add(m);
 
         m = new Model();
         m.setNama("Johan");
         m.setAlamat("Jl.Bojonegoro");
         m.setNoHp("0877");
+        models.add(m);
 
         m = new Model();
         m.setNama("Abdi");
         m.setAlamat("Jl.Pattimura");
         m.setNoHp("0877");
+        models.add(m);
 
         m = new Model();
         m.setNama("Roger");
         m.setAlamat("Jl.PadadKarya");
         m.setNoHp("0877");
+        models.add(m);
 
         m = new Model();
         m.setNama("Sugi");
         m.setAlamat("Jl.Diponegoro");
         m.setNoHp("0877");
+        models.add(m);
 
         m = new Model();
         m.setNama("Sukadi");
         m.setAlamat("Jl.Sultan Malik");
         m.setNoHp("0877");
+        models.add(m);
 
         return models;
     }
